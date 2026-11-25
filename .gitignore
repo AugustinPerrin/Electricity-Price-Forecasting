@@ -1,0 +1,29 @@
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers locaux et secrets
+.env
+.env.*
+.vscode/*
+!.vscode/extensions.json
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Donnees locales : conserver seulement les repertoires
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Figures generees : conserver le repertoire
+reports/figures/*
+!reports/figures/.gitkeep
