@@ -11,7 +11,6 @@ Ce depot fournit une base reproductible et une méthode pour explorer un jeu de 
 
 ```text
 .
-|-- data/
 |-- notebooks/
 |   `-- electricityforecasting_perrin.ipynb
 |-- .gitignore
